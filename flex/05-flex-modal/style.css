@@ -16,10 +16,32 @@ body {
 }
 
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1rem;
+}
+
+.first-half{
+  padding-right: 1rem;
+}
+
+.top{
+  display: flex;
+  font-size: 1.1rem;
+  justify-content: space-between;
+  font-weight: 600;
+  align-items: center;
+}
+
+.text{
+  padding-top: 0.4rem;
+}
+
+.buttons{
+  padding-top: 0.8rem;
 }
 
 .icon {
@@ -67,3 +89,4 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
